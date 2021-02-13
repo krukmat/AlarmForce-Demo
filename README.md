@@ -2,12 +2,12 @@
 
 This is a project to intend integrate IOT Solutions in Salesforce. The stack selected:
 * IOT Proxy Platform:
-        * Thingspeak
+    * Thingspeak
 *  Hardware:
-         * ESP32
+    * ESP32
          * PIR Sensor
-- Software:         
-         * Arduino IDE
+* Software:         
+    * Arduino IDE
          * Salesforce:
               * Scheduled triggered flow
               * Named credential
