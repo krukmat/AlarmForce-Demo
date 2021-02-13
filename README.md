@@ -21,8 +21,8 @@ This is a project to intend integrate IOT Solutions in Salesforce. The stack sel
 ![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/Untitled%20Diagram.png)
 
 ## Salesforce: Records and Flow  
-(https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/Salesforce.png)
-(https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/flow.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/Salesforce.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/flow.png)
 
 ## Hardware
-(https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/Hardware.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/Hardware.png)
