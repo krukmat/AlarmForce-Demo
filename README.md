@@ -1,17 +1,22 @@
-# AlarmForce
+# AlarmForce: General Idea
 
 This is a project to intend integrate IOT Solutions in Salesforce. The stack selected:
-- 
+- IOT Proxy Platform:
+        - Thingspeak
+-  Hardware:
+         - ESP32
+         - PIR Sensor
+- Software:         
+         - Arduino IDE
+         - Salesforce:
+              - Scheduled triggered flow
+              - Named credential
+              - External services to Thingspeak
 
-## How Do You Plan to Deploy Your Changes?
+##  Hardware: Schematics
+(images/AlarmForce - Schematics.png)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
+## More information
 
 - [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
