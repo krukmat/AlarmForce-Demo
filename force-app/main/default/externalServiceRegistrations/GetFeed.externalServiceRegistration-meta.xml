@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>GetFeed</label>
+    <namedCredential>Thingspeak</namedCredential>
+    <schema>{
+  &quot;swagger&quot;: &quot;2.0&quot;,
+  &quot;info&quot;: {
+    &quot;version&quot;: &quot;0.1&quot;,
+    &quot;title&quot;: &quot;defaultTitle&quot;,
+    &quot;description&quot;: &quot;defaultDescription&quot;,
+    &quot;contact&quot;: {}
+  },
+  &quot;host&quot;: &quot;api.thingspeak.com&quot;,
+  &quot;basePath&quot;: &quot;/&quot;,
+  &quot;schemes&quot;: [
+    &quot;https&quot;
+  ],
+  &quot;consumes&quot;: [
+    &quot;application/json&quot;
+  ],
+  &quot;produces&quot;: [
+    &quot;application/json&quot;
+  ],
+  &quot;paths&quot;: {
+    &quot;/channels/{channel_id}/feeds.json&quot;: {
+      &quot;get&quot;: {
+        &quot;summary&quot;: &quot;ChannelsFeedsJson_GET&quot;,
+        &quot;operationId&quot;: &quot;ChannelsFeedsJson_GET&quot;,
+        &quot;deprecated&quot;: false,
+        &quot;produces&quot;: [
+          &quot;application/json&quot;
+        ],
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;api_key&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;description&quot;: &quot;&quot;
+          },
+         {
+            &quot;name&quot;: &quot;channel_id&quot;,
+            &quot;in&quot;: &quot;path&quot;,
+            &quot;required&quot;: true,
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;x-example&quot;: &quot;11223344&quot;
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Definition generated from Swagger Inspector&quot;,
+            &quot;schema&quot;: {
+              &quot;$ref&quot;: &quot;#/definitions/Model0&quot;
+            },
+            &quot;headers&quot;: {}
+          }
+        }
+      }
+    }
+  },
+  &quot;definitions&quot;: {
+    &quot;Channel&quot;: {
+      &quot;title&quot;: &quot;Channel&quot;,
+      &quot;type&quot;: &quot;object&quot;,
+      &quot;properties&quot;: {
+        &quot;id&quot;: {
+          &quot;type&quot;: &quot;integer&quot;,
+          &quot;format&quot;: &quot;int32&quot;
+        },
+        &quot;name&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;latitude&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;longitude&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;field1&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;created_at&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;updated_at&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;last_entry_id&quot;: {
+          &quot;type&quot;: &quot;integer&quot;,
+          &quot;format&quot;: &quot;int32&quot;
+        }
+      }
+    },
+    &quot;Feeds&quot;: {
+      &quot;title&quot;: &quot;Feeds&quot;,
+      &quot;type&quot;: &quot;object&quot;,
+      &quot;properties&quot;: {
+        &quot;created_at&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        },
+        &quot;entry_id&quot;: {
+          &quot;type&quot;: &quot;integer&quot;,
+          &quot;format&quot;: &quot;int32&quot;
+        },
+        &quot;field1&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        }
+      }
+    },
+    &quot;Model0&quot;: {
+      &quot;title&quot;: &quot;Model0&quot;,
+      &quot;type&quot;: &quot;object&quot;,
+      &quot;properties&quot;: {
+        &quot;channel&quot;: {
+          &quot;$ref&quot;: &quot;#/definitions/Channel&quot;
+        },
+        &quot;feeds&quot;: {
+          &quot;type&quot;: &quot;array&quot;,
+          &quot;items&quot;: {
+            &quot;$ref&quot;: &quot;#/definitions/Feeds&quot;
+          }
+        }
+      }
+    }
+  },
+  &quot;tags&quot;: []
+}</schema>
+    <schemaType>OpenApi</schemaType>
+    <status>Complete</status>
+</ExternalServiceRegistration>

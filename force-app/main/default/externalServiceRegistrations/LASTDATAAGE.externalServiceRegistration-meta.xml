@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>LASTDATAAGE</label>
+    <namedCredential>Thingspeak</namedCredential>
+    <schema>{
+  &quot;swagger&quot;: &quot;2.0&quot;,
+  &quot;info&quot;: {
+    &quot;description&quot;: &quot;defaultDescription&quot;,
+    &quot;version&quot;: &quot;0.1&quot;,
+    &quot;title&quot;: &quot;defaultTitle&quot;
+  },
+  &quot;paths&quot;: {
+    &quot;/channels/{channel_id}/fields/{field_id}/last_data_age.json&quot;: {
+      &quot;get&quot;: {
+        &quot;produces&quot;: [
+          &quot;application/json&quot;
+        ],
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;api_key&quot;,
+            &quot;in&quot;: &quot;query&quot;,
+            &quot;required&quot;: false,
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;x-example&quot;: &quot;18YFIXSCYYK95BTO&quot;
+          },
+         {
+            &quot;name&quot;: &quot;channel_id&quot;,
+            &quot;in&quot;: &quot;path&quot;,
+            &quot;required&quot;: true,
+            &quot;type&quot;: &quot;string&quot;,
+            &quot;x-example&quot;: &quot;11223344&quot;
+          },
+        {
+            &quot;name&quot;: &quot;field_id&quot;,
+            &quot;in&quot;: &quot;path&quot;,
+            &quot;required&quot;: true,
+            &quot;type&quot;: &quot;integer&quot;,
+            &quot;x-example&quot;: &quot;1&quot;
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;Definition generated from Swagger Inspector&quot;,
+            &quot;schema&quot;: {
+              &quot;$ref&quot;: &quot;#/definitions/Model0&quot;
+            }
+          }
+        }
+      }
+    }
+  },
+  &quot;definitions&quot;: {
+    &quot;Model0&quot;: {
+      &quot;properties&quot;: {
+        &quot;last_data_age&quot;: {
+          &quot;type&quot;: &quot;integer&quot;,
+          &quot;format&quot;: &quot;int32&quot;
+        },
+        &quot;last_data_age_units&quot;: {
+          &quot;type&quot;: &quot;string&quot;
+        }
+      }
+    }
+  }
+}</schema>
+    <schemaType>OpenApi</schemaType>
+    <status>Complete</status>
+</ExternalServiceRegistration>
