@@ -16,4 +16,5 @@ This is a project to intend integrate IOT Solutions in Salesforce. The stack sel
 ##  Hardware: Schematics
 ![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/AlarmForce%20-%20Schematics.png)
 
-## More information
+## General Schema: Hardware - Thingspeak - Salesforce
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/Untitled%20Diagram.png)
