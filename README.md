@@ -1,17 +1,18 @@
 # AlarmForce: General Idea
 
 This is a project to intend integrate IOT Solutions in Salesforce. The stack selected:
-- IOT Proxy Platform:
-        - Thingspeak
--  Hardware:
-         - ESP32
-         - PIR Sensor
+* IOT Proxy Platform:
+        * Thingspeak
+*  Hardware:
+         * ESP32
+         * PIR Sensor
 - Software:         
-         - Arduino IDE
-         - Salesforce:
-              - Scheduled triggered flow
-              - Named credential
-              - External services to Thingspeak
+         * Arduino IDE
+         * Salesforce:
+              * Scheduled triggered flow
+              * Named credential
+              * External services to Thingspeak (Open API Definitions)
+              * Custom Object: Sensor
 
 ##  Hardware: Schematics
 ![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/AlarmForce%20-%20Schematics.png)
