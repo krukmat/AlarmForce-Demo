@@ -33,7 +33,7 @@ void loop() {
   long state = digitalRead(14);
   Serial.println(state);
   delay(100);
-  if((wifiMulti.run() == WL_CONNECTED)) {
+  if((wifiMulti.run() == WL_CONNECTED) && state == 1) {
          // Create a URL for updating module 1 and module2 request
          String url = "https://api.thingspeak.com/update?api_key=";
          url += apiKeyIn;
@@ -56,6 +56,8 @@ void loop() {
          Serial.println("********** End ");
          Serial.println("*****************************************************");
          delay(writeInterval); // delay
+  } else {
+         delay(100);
   }
   
 }
