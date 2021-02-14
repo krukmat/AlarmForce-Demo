@@ -15,7 +15,7 @@ def on_message(client, userdata, msg):
     data = json.loads(my_json)
     try:
         result = sf.sobjects.Sensor__c.insert({'Date__c': data['created_at'], 'External_id__c': data['entry_id'], 'value__c':  data['field1'], 'channel__c': data['channel_id']})
-    catch Exception:
+    catch:
         pass
     print(result)        
  
