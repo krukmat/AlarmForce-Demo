@@ -16,14 +16,14 @@ This is a project is an intent integrate IOT Solutions in Salesforce with Things
          * Quick action to screen flow to manual update
 
 ##  Hardware
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/AlarmForce%20-%20Schematics.png)
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/Hardware.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/AlarmForce%20-%20Schematics.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/Hardware.png)
 
 ## General Schema
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/Untitled%20Diagram.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/Untitled%20Diagram.png)
 
 ## Salesforce: 
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/flow.png)
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/Retrieve%20data%20manually.png)
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/master/images/Salesforce.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/flow.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/Retrieve%20data%20manually.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/Salesforce.png)
 
