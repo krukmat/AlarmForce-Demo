@@ -23,7 +23,6 @@ This is a project is an intent integrate IOT Solutions in Salesforce with Things
 ![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/Untitled%20Diagram.png)
 
 ## Salesforce: 
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/flow.png)
-![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/Retrieve%20data%20manually.png)
+![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/email%20alert.png)
 ![Schematics](https://raw.githubusercontent.com/krukmat/AlarmForce-Demo/mqtt/images/Salesforce.png)
 
